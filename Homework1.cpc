@@ -1,0 +1,8 @@
+DECLARE Capital : STRING
+OUTPUT "What is the capital city of Japan?"
+INPUT Capital
+IF Capital = "Tokyo" OR Capital="TOKYO"  THEN
+    OUTPUT "THE ANSWER IS CORRECT" 
+ELSE
+    OUTPUT "THE ANSWER ENTERED IS WRONG "
+ENDIF
